@@ -1,0 +1,46 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (sfmlstarter.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Game.cpp
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(67,11): warning C4244:  'initializing': conversion from 'T' to 'float', possible loss of data
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(67,11): warning C4244:         with
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(67,11): warning C4244:         [
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(67,11): warning C4244:             T=double
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(67,11): warning C4244:         ]
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(164,69): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(164,69): warning C4244:         with
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(164,69): warning C4244:         [
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(164,69): warning C4244:             T=float
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(164,69): warning C4244:         ]
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(164,51): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(164,51): warning C4244:         with
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(164,51): warning C4244:         [
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(164,51): warning C4244:             T=float
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(164,51): warning C4244:         ]
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(166,29): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(166,29): warning C4244:         with
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(166,29): warning C4244:         [
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(166,29): warning C4244:             T=float
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(166,29): warning C4244:         ]
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(167,29): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(167,29): warning C4244:         with
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(167,29): warning C4244:         [
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(167,29): warning C4244:             T=float
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(167,29): warning C4244:         ]
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(175,61): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(175,61): warning C4244:         with
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(175,61): warning C4244:         [
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(175,61): warning C4244:             T=int
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(175,61): warning C4244:         ]
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(175,61): warning C4244:         and
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(175,61): warning C4244:         [
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(175,61): warning C4244:             T=float
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(175,61): warning C4244:         ]
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(175,44): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(175,44): warning C4244:         with
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(175,44): warning C4244:         [
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(175,44): warning C4244:             T=int
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(175,44): warning C4244:         ]
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(175,44): warning C4244:         and
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(175,44): warning C4244:         [
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(175,44): warning C4244:             T=float
+C:\Users\C00240102\Desktop\sfmltopdown\sfmlstarter\Game.cpp(175,44): warning C4244:         ]
+  sfmlstarter.vcxproj -> C:\Users\C00240102\Desktop\sfmltopdown\Debug\sfmltopdown.exe
