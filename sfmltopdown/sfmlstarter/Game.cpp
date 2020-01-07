@@ -1,4 +1,5 @@
 // Author: Dr Noel O'Hara
+//co author: ethan rennick C00240102
 // Top down game starter
 #ifdef _DEBUG 
 #pragma comment(lib,"sfml-graphics-d.lib") 
@@ -42,9 +43,10 @@ public:
 
 	sf::CircleShape target;
 
+	bool almostStopped = true;
 
-
-
+	sf::RectangleShape wally;
+	
 	
 	
 	sf::Vector2f normalised ;
@@ -57,6 +59,9 @@ public:
 	
 	void init()
 	{
+		wally.setFillColor(sf::Color::Blue);
+		wally.setPosition(600, 400);
+		wally.setSize(sf::Vector2f(100,100));
 
 		view = window.getDefaultView();
 		playerShape.setRadius(20);
@@ -103,7 +108,7 @@ public:
 
 				if (playerState == ready)
 				{
-					if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
+					if (sf::Mouse::isButtonPressed(sf::Mouse::Left) && almostStopped)
 					{
 						playerState = drawingLine;
 					}
@@ -126,7 +131,7 @@ public:
 						}
 
 						playerState = Moving;
-						
+						almostStopped = false;
 					}
 				}
 				if (playerState == Moving)
@@ -165,7 +170,16 @@ public:
 				}
 				velocity.y = velocity.y * .995;
 				velocity.x = velocity.x * .995;
+				if (velocity.x < 5 && velocity.y <5 && velocity.x > -5 && velocity.y > -5)
+				{
+					almostStopped = true;
+				}
 
+				if (playerShape.getGlobalBounds().intersects(wally.getGlobalBounds()))
+				{
+					velocity.x = velocity.x * -1;
+
+				}
 				window.clear();
 				if (playerState == drawingLine)
 				{
@@ -179,6 +193,7 @@ public:
 					window.draw(line, 2, sf::Lines);
 				}
 				window.draw(playerShape);
+				window.draw(wally);
 				window.draw(target);
 				window.display();
 				
