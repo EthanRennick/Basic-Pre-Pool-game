@@ -5,42 +5,42 @@ C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(74
 C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(74,11): warning C4244:         [
 C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(74,11): warning C4244:             T=double
 C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(74,11): warning C4244:         ]
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(233,69): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(233,69): warning C4244:         with
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(233,69): warning C4244:         [
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(233,69): warning C4244:             T=float
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(233,69): warning C4244:         ]
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(233,51): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(233,51): warning C4244:         with
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(233,51): warning C4244:         [
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(233,51): warning C4244:             T=float
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(233,51): warning C4244:         ]
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(235,29): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(235,29): warning C4244:         with
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(235,29): warning C4244:         [
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(235,29): warning C4244:             T=float
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(235,29): warning C4244:         ]
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(236,29): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(236,29): warning C4244:         with
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(236,29): warning C4244:         [
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(236,29): warning C4244:             T=float
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(236,29): warning C4244:         ]
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(253,61): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(253,61): warning C4244:         with
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(253,61): warning C4244:         [
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(253,61): warning C4244:             T=int
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(253,61): warning C4244:         ]
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(253,61): warning C4244:         and
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(253,61): warning C4244:         [
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(253,61): warning C4244:             T=float
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(253,61): warning C4244:         ]
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(253,44): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(253,44): warning C4244:         with
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(253,44): warning C4244:         [
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(253,44): warning C4244:             T=int
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(253,44): warning C4244:         ]
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(253,44): warning C4244:         and
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(253,44): warning C4244:         [
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(253,44): warning C4244:             T=float
-C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(253,44): warning C4244:         ]
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(235,69): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(235,69): warning C4244:         with
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(235,69): warning C4244:         [
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(235,69): warning C4244:             T=float
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(235,69): warning C4244:         ]
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(235,51): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(235,51): warning C4244:         with
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(235,51): warning C4244:         [
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(235,51): warning C4244:             T=float
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(235,51): warning C4244:         ]
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(237,29): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(237,29): warning C4244:         with
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(237,29): warning C4244:         [
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(237,29): warning C4244:             T=float
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(237,29): warning C4244:         ]
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(238,29): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(238,29): warning C4244:         with
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(238,29): warning C4244:         [
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(238,29): warning C4244:             T=float
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(238,29): warning C4244:         ]
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(255,61): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(255,61): warning C4244:         with
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(255,61): warning C4244:         [
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(255,61): warning C4244:             T=int
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(255,61): warning C4244:         ]
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(255,61): warning C4244:         and
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(255,61): warning C4244:         [
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(255,61): warning C4244:             T=float
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(255,61): warning C4244:         ]
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(255,44): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(255,44): warning C4244:         with
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(255,44): warning C4244:         [
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(255,44): warning C4244:             T=int
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(255,44): warning C4244:         ]
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(255,44): warning C4244:         and
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(255,44): warning C4244:         [
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(255,44): warning C4244:             T=float
+C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\sfmlstarter\Game.cpp(255,44): warning C4244:         ]
   sfmlstarter.vcxproj -> C:\Users\C00240102\Desktop\bouncy-offy-wally\sfmltopdown\Debug\sfmltopdown.exe

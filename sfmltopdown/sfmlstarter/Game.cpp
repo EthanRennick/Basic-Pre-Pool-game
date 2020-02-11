@@ -38,7 +38,7 @@ public:
 	
 	PlayerState playerState = ready;
 
-	sf::Vector2f velocity = { 0,0 };
+	sf::Vector2f velocity = { -4,-400 };
 	float playerMaxSpeed = 400;
 
 	sf::CircleShape target;
@@ -160,11 +160,13 @@ public:
 				if (collision == true)
 				{
 					collision = false;
-					thor::rotate(newP2, -angle);
-					newP2 = { 250, 250 };
-					newP1 = {100, 100};
-					//velocity = velocity + newC1;
-					//thor::rotate(velocity, -angle);
+					newC1.y = 20;
+					tempVel.y = -tempVel.y;
+					tempVel = tempVel + newC1;
+					thor::rotate(newC1, -angle);
+					thor::rotate(tempVel, -angle);
+					tempVel = tempVel - newC1;
+					playerShape.setPosition(newC1.x + 100, newC1.y + 100);
 					velocity = tempVel;
 
 				}
