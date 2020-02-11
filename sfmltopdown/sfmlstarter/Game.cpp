@@ -46,6 +46,8 @@ public:
 	bool almostStopped = true;
 
 	sf::RectangleShape wally;
+
+	sf::VertexArray lines{ sf::Lines };
 	
 	
 	
@@ -77,6 +79,9 @@ public:
 		target.setFillColor(sf::Color::Yellow);
 		target.setPosition(400, 300);
 		target.setRadius(8);
+
+		lines.append(sf::Vertex(sf::Vector2f(100, 100)));
+		lines.append(sf::Vertex(sf::Vector2f(250, 250)));
 	}
 	void run()
 	{
@@ -105,6 +110,65 @@ public:
 
 			if (timeSinceLastUpdate > timePerFrame)
 			{
+
+				//line ball collision
+				//new p1
+				sf::Vector2f newP1 = { 0, 0 };
+				//new p2
+				sf::Vector2f newP2 = { 150, 150 };
+
+				//new c
+				sf::Vector2f newC1 = { playerShape.getPosition().x - 100, playerShape.getPosition().y - 100 };
+				float angle = -thor::polarAngle(newP2); //store angle
+
+				thor::rotate(newP2, angle); //rotate line
+
+				sf::Vector2f tempVel = newC1 + velocity; //store velocity
+
+				thor::rotate(newC1, angle); //rotate ball?
+				thor::rotate(tempVel, angle); //rotate velocity
+
+				tempVel = tempVel - newC1; //do something to velocity
+
+				bool collision = false;
+
+	
+				if (tempVel.y < 0)
+				{
+					if (newC1.x - playerShape.getRadius() > newP2.x)
+					{
+						//std::cout << "non Collision";
+					}
+					else if (newC1.x + playerShape.getRadius() < newP1.x)
+					{
+						//std::cout << "no Collision";
+					}
+					else if (newC1.y + playerShape.getRadius() < newP1.y)
+					{
+						//std::cout << "No collision";
+					}
+					else if (newC1.y - playerShape.getRadius() > newP1.y)
+					{
+						//std::cout << "Collision nada";
+					}
+					else
+					{
+						collision = true;
+
+					}
+				}
+				if (collision == true)
+				{
+					collision = false;
+					thor::rotate(newP2, -angle);
+					newP2 = { 250, 250 };
+					newP1 = {100, 100};
+					//velocity = velocity + newC1;
+					//thor::rotate(velocity, -angle);
+					velocity = tempVel;
+
+				}
+				// && newC1.x + playerShape.getRadius() < newP2.x
 
 				if (playerState == ready)
 				{
@@ -168,9 +232,9 @@ public:
 				{
 					target.setPosition(sf::Vector2f(rand() % 800 + 1, rand() % 600 + 1));
 				}
-				velocity.y = velocity.y * .995;
-				velocity.x = velocity.x * .995;
-				if (velocity.x < 5 && velocity.y <5 && velocity.x > -5 && velocity.y > -5)
+				velocity.y = velocity.y * .99;
+				velocity.x = velocity.x * .99;
+				if (velocity.x < 10 && velocity.y <10 && velocity.x > -10 && velocity.y > -10)
 				{
 					almostStopped = true;
 				}
@@ -192,6 +256,10 @@ public:
 
 					window.draw(line, 2, sf::Lines);
 				}
+
+				
+
+				window.draw(lines);
 				window.draw(playerShape);
 				window.draw(wally);
 				window.draw(target);
